@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClick(View view) {
-        onDownLoad("http://60.205.190.130/zwjapp/data/upload/room_picture/33f7930ca807ed68857c5848f4d45df1.jpeg");
+        onDownLoad("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493619258&di=ee9dcae9d3aa1f3c161642705660bce9&imgtype=jpg&er=1&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fc2fdfc039245d68833446282a6c27d1ed21b2456.jpg");
     }
     private void onDownLoad(String url) {
         DownLoadImageService service = new DownLoadImageService(getApplicationContext(),
